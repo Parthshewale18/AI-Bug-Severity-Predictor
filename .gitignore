@@ -1,0 +1,42 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Logs
+*.log
+
+# Model Files
+models/*.h5
+models/*.keras
+models/*.pkl
+models/*.joblib
+models/*.pt
+models/*.bin
+
+# Data
+data/raw/*
+data/processed/*
+
+# Keep folders
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Streamlit
+.streamlit/
+
+
+# Environment Variables
+.venv
+
+# Cache
+.cache/
+.pytest_cache/

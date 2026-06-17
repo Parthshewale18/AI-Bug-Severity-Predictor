@@ -1,0 +1,37 @@
+# Data Handling
+pandas
+numpy
+
+# Visualization
+matplotlib
+seaborn
+
+# Machine Learning
+scikit-learn
+
+# Deep Learning
+tensorflow
+
+# NLP
+nltk
+
+# Dataset Loading
+datasets
+
+# Transformers
+transformers
+torch
+
+# Explainability
+shap
+
+# App Development
+streamlit
+
+# Utilities
+tqdm
+joblib
+
+# Notebook
+jupyter
+ipykernel

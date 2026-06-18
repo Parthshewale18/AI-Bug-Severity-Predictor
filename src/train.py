@@ -77,14 +77,12 @@ X_test = X_test.toarray().astype(np.float32)
 print("Building Model")
 model = Sequential([
     tf.keras.layers.Input(shape=(X_train.shape[1],)),
-    tf.keras.layers.Dense(600, activation='relu'),
+    tf.keras.layers.Dense(500, activation='relu'),
     tf.keras.layers.Dropout(0.4),
-    tf.keras.layers.Dense(400, activation='relu'),
+    tf.keras.layers.Dense(250, activation='relu'),
     tf.keras.layers.Dropout(0.3),
-    tf.keras.layers.Dense(200, activation='relu'),
-    tf.keras.layers.Dropout(0.2),
     tf.keras.layers.Dense(100, activation='relu'),
-    tf.keras.layers.Dropout(0.1),
+    tf.keras.layers.Dropout(0.2),
     tf.keras.layers.Dense(5, activation='softmax'),
 ])
 

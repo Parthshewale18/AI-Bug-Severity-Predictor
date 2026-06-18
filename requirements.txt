@@ -12,24 +12,10 @@ scikit-learn
 # Deep Learning
 tensorflow
 
-# NLP
-nltk
-
 # Dataset Loading
 datasets
 
-# Transformers
-transformers
-torch
-
-# Explainability
-shap
-
-# App Development
-streamlit
-
 # Utilities
-tqdm
 joblib
 
 # Notebook

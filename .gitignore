@@ -23,8 +23,7 @@ models/*.pt
 models/*.bin
 
 # Data
-data/raw/*
-data/processed/*
+data/
 
 # Keep folders
 !data/raw/.gitkeep
